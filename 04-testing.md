@@ -895,7 +895,7 @@ pub extern "C" fn _start() -> ! {
 }
 
 fn should_fail() {
-    serial_print!("should_fail... ");
+    serial_println!("should_fail... ");
     assert_eq!(0, 1);
 }
 
